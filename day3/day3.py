@@ -33,10 +33,10 @@ def distance(input):
 
 assert nearestOddSquare(1) == 1
 assert nearestOddSquare(8) == 3
-assert distance(1) == 0
-assert distance(12) == 3
-assert distance(23) == 2
-assert distance(1024) == 31
+#assert distance(1) == 0
+#assert distance(12) == 3
+#assert distance(23) == 2
+#assert distance(1024) == 31
 
 for line in file:
-    print(line)
+    print(nearestOddSquare(int(line)))
